@@ -22,7 +22,7 @@ setNow(Date.now());
 clearInterval(intervalRef.current);
 intervalRef.current = setInterval(() => {
   setNow(Date.now());
-}, 10);
+},10 );
 }
 
 function handleStop() {
